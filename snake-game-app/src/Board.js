@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { randomIntFromInterval} from '../utils/utils'
 import './Board.css';
 
 class Node {
@@ -14,6 +15,14 @@ class LinkedList {
 
         this.head = node;
         this.tail = node;
+    }
+}
+
+class Cell {
+    constructor(row, col, val) {
+        this.row = row;
+        this.col = col;
+        this.val = val
     }
 }
 
@@ -37,6 +46,8 @@ const Board = () => {
         const isValidDirection = newDirection !== '';
         if (!isValidDirection) setDirection(newDirection);
     })
+
+    const 
 
     return (
         <div>
