@@ -1,1 +1,1 @@
-# React_SnakeGameApp
+# React: SnakeGameApp
